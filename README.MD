@@ -20,16 +20,16 @@ pip install -r requirements.txt
 
 ### Руководство по проекту
 #### Этап 1: Развертывание MLflow и регистрация модели
-- Скрипт для развертывания MLflow и ноутбук для пошагового выполнения кода находятся в папке ./mlflow_server.
-- Запуск скрипта из командной строки:
-
+Шаги:
+- Выполнить скрипт из командной строки:
 cd ./mlflow_server
 
 sh run_mlflow_server
+- Выполнить код в ноутбуке notebook_step_1.ipynb
 
 Результаты в MLflow:
-- EXPERIMENT_NAME = 'mle-project-sprint-2';
-- RUN_NAME = 'flats_price_baseline_model_logging';
+- EXPERIMENT_NAME = 'mle-project-sprint-2',
+- RUN_NAME = 'step_1',
 - RUN_ID = 
 - REGISTRY_MODEL_NAME = 'flats_model_sprint_2_step_1'
 
