@@ -21,18 +21,14 @@ pip install -r requirements.txt
 ### Руководство по проекту
 #### Этап 1: Развертывание MLflow и регистрация модели
 Шаги:
-- Выполнить скрипт из командной строки:
-
-cd ./mlflow_server
-
-sh run_mlflow_server
+- В терминале сделать текущей папку проекта и выполнить команду: sh run_mlflow_server.sh
 - Выполнить код в ноутбуке ./mlflow_server/notebook_step_1.ipynb
 
 Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2',
 - RUN_NAME = 'step_1',
-- RUN_ID = 
-- REGISTRY_MODEL_NAME = 'flats_model_sprint_2_step_1'
+- RUN_ID = '64fa92a4b2f848018acec0bfa7435f1f'
+- REGISTRY_MODEL_NAME = 'flats_price_model_sprint_2_step_1'
 
 
 #### Этап 2: Проведение EDA 
