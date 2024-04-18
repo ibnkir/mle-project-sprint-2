@@ -13,3 +13,6 @@ ipywidgets==8.1.1
 seaborn==0.13.0
 autofeat==2.1.2
 mlxtend==0.23.0
+plotly==5.20.0
+nbformat==5.10.3
+kaleido==0.2.1
