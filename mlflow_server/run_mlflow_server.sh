@@ -1,4 +1,4 @@
-export $(cat .env | xargs)
+export $(cat ../.env | xargs)
 
 export MLFLOW_S3_ENDPOINT_URL=https://storage.yandexcloud.net
 export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
