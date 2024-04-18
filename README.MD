@@ -22,6 +22,7 @@ pip install -r requirements.txt
 #### Этап 1: Развертывание MLflow и регистрация модели
 Шаги:
 - Выполнить скрипт из командной строки:
+
 cd ./mlflow_server
 
 sh run_mlflow_server
