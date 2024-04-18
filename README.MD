@@ -27,7 +27,7 @@ cd ./mlflow_server
 
 sh run_mlflow_server
 
-Результаты логирования:
+Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2';
 - RUN_NAME = 'flats_price_baseline_model_logging';
 - RUN_ID = 
@@ -47,7 +47,7 @@ sh run_mlflow_server
 - Логируем файлы conclusions_eda.md и notebook_eda.ipynb в MLflow, код для логирования
 находится в ноутбуке notebook_steps_2_5.ipynb, который находится в папке model_improvement.
 
-Идентификаторы в MLflow:
+Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2'
 - RUN_NAME = 'step_2'
 
