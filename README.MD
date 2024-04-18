@@ -24,7 +24,7 @@ pip install -r requirements.txt
 #### Этап 1: Развертывание MLflow и регистрация модели
 Шаги:
 - В терминале сделать текущей папку проекта и выполнить команду: sh run_mlflow_server.sh
-- Выполнить код в ноутбуке ./mlflow_server/notebook_step_1.ipynb
+- Выполнить код в ноутбуке ./mlflow_server/notebook_step_1.ipynb для подготовки модели, расчета метрик и их последующего логирования
 
 Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2'
@@ -34,13 +34,14 @@ pip install -r requirements.txt
 
 #### Этап 2: Проведение EDA 
 Шаги:
-- Выполнить код в ноутбуке ./mlflow_improvement/notebook_eda.ipynb для проведения EDA,
+- Выполнить код в ноутбуке ./mlflow_improvement/notebook_eda.ipynb со всеми шагами EDA
 - Выполнить код в ноутбуке ./mlflow_improvement/notebook_steps_2_5.ipynb в разделе 2-го этапа для логирования результатов EDA, включая файлы notebook_eda.ipynb и conclusions_eda.md
 (в последнем собраны выводы по результатам EDA).
 
 Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2'
 - RUN_NAME = 'step_2'
+- RUN_ID = ''
 
 #### Этап 3: Генерация признаков и обучение модели
 Укажите, какие признаки были сгенерированы и как это повлияло на модель. Добавьте названия запусков в MLflow для этапа генерации признаков.
