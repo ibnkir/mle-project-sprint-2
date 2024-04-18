@@ -26,7 +26,7 @@ pip install -r requirements.txt
 cd ./mlflow_server
 
 sh run_mlflow_server
-- Выполнить код в ноутбуке notebook_step_1.ipynb
+- Выполнить код в ноутбуке ./mlflow_server/notebook_step_1.ipynb
 
 Результаты в MLflow:
 - EXPERIMENT_NAME = 'mle-project-sprint-2',
