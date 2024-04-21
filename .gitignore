@@ -162,4 +162,6 @@ cython_debug/
 /data
 /models
 /fs_assets
-/search_hp_assets
+/hp_search_assets
+/model_improvement/local.study.db
+/model_improvement/catboost_info
