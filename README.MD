@@ -60,7 +60,7 @@ pip install -r requirements.txt
 С помощью методов Sequential Forward Floating Selection (SFFS) и Sequential Forward Selection (SFS) были отобраны преобразованные на предыдущем этапе признаки. Новая модель была обучена на объединенном наборе этих признаков и залогирована. Ошибка MAPE на тестовых данных снова немного уменьшилась.
 
 Шаги:
-- Выполнить код в ноутбуке ./mlflow_improvement/notebook_steps_2_5.ipynb в разделе 4-го этапа (см. содержание со ссылками в начале ноутбука).
+- Выполнить код в ноутбуке ./mlflow_improvement/notebook_steps_1_5.ipynb в разделе 4-го этапа (см. содержание со ссылками в начале ноутбука).
 
 Результаты в MLflow:
 - Имя эксперимента: 'mle-project-sprint-2'
