@@ -160,8 +160,6 @@ cython_debug/
 #.idea/
 
 /data
-/models
 /fs_assets
-/hp_search_assets
 /model_improvement/local.study.db
 /model_improvement/catboost_info
