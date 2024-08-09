@@ -7,7 +7,7 @@
 
 Основные инструменты: 
 - VS Code
-- sklearn 
+- scikit-learn 
 - catboost
 - MLflow
 - Autofeat
